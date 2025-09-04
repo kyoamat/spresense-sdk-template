@@ -1,0 +1,25 @@
+
+config APP
+	tristate "My app"
+	default y
+	---help---
+		Enable the app
+
+if APP
+
+config APP_PROGNAME
+	string "Program name"
+	default "app"
+	---help---
+		This is the name of the program that will be used when the NSH ELF
+		program is installed.
+
+config APP_PRIORITY
+	int "app task priority"
+	default 100
+
+config APP_STACKSIZE
+	int "app stack size"
+	default 2048
+
+endif
