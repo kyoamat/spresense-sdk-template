@@ -13,6 +13,7 @@ configuration:
 ```bash
 cd ../sdk
 tools/config.py default
+tools/config.py -m # Make your App configurations
 ```
 
 build with Make:

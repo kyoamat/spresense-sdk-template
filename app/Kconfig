@@ -1,7 +1,6 @@
-
 config APP
 	tristate "My app"
-	default y
+	default n
 	---help---
 		Enable the app
 

@@ -1,4 +1,3 @@
-
 #include <nuttx/config.h>
 #include <stdio.h>
 
